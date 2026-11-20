@@ -1,0 +1,13 @@
+# 원본·가공 데이터는 용량이 커서 올리지 않는다 (README에 내려받는 방법을 적는다)
+data/
+*.parquet
+*.zip
+
+# 파이썬 환경/캐시
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
