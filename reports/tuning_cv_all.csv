@@ -1,0 +1,23 @@
+﻿모델,params,mean_test_score,std_test_score,rank_test_score
+RandomForest,"{'max_depth': 10, 'min_samples_leaf': 20}",0.3488977848122591,0.019866183775513704,2
+RandomForest,"{'max_depth': 10, 'min_samples_leaf': 100}",0.33556373941588297,0.01993043246505001,4
+RandomForest,"{'max_depth': 16, 'min_samples_leaf': 20}",0.35172449201792694,0.019421533946740913,1
+RandomForest,"{'max_depth': 16, 'min_samples_leaf': 100}",0.33569770268068405,0.02043645279844487,3
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 150, 'num_leaves': 31}",0.3606079958265802,0.03481795395483337,5
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 150, 'num_leaves': 63}",0.35952997914369994,0.03363653640486658,6
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 150, 'num_leaves': 127}",0.35509170108108357,0.033998494308273626,9
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 300, 'num_leaves': 31}",0.3619149057611345,0.037064064180642384,3
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 300, 'num_leaves': 63}",0.35294081783462095,0.034985808528859144,10
+LightGBM,"{'min_child_samples': 50, 'n_estimators': 300, 'num_leaves': 127}",0.35281568143746833,0.03338234340350921,11
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 150, 'num_leaves': 31}",0.3711715518710103,0.03436340104458401,1
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 150, 'num_leaves': 63}",0.3610492861201096,0.03722855139528484,4
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 150, 'num_leaves': 127}",0.356901310233377,0.0399352944869851,7
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 300, 'num_leaves': 31}",0.366033068927044,0.03673467735577592,2
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 300, 'num_leaves': 63}",0.35532199151705113,0.040004486944631594,8
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 300, 'num_leaves': 127}",0.3508008520464624,0.03900502886772595,12
+XGBoost,"{'max_depth': 4, 'n_estimators': 150}",0.3623600316414682,0.024249030068537198,3
+XGBoost,"{'max_depth': 4, 'n_estimators': 300}",0.3644931045778794,0.030992515295722233,1
+XGBoost,"{'max_depth': 6, 'n_estimators': 150}",0.3633859651624357,0.03491582487496802,2
+XGBoost,"{'max_depth': 6, 'n_estimators': 300}",0.3607156011028649,0.037143313156145746,4
+XGBoost,"{'max_depth': 8, 'n_estimators': 150}",0.3535467593211232,0.035126539024224517,5
+XGBoost,"{'max_depth': 8, 'n_estimators': 300}",0.34992748765273446,0.03349848861133888,6

@@ -1,0 +1,4 @@
+﻿모델,최고 조합,CV PR-AUC 평균,표준편차
+RandomForest,"{'max_depth': 16, 'min_samples_leaf': 20}",0.3517,0.0194
+LightGBM,"{'min_child_samples': 200, 'n_estimators': 150, 'num_leaves': 31}",0.3712,0.0344
+XGBoost,"{'max_depth': 4, 'n_estimators': 300}",0.3645,0.031
